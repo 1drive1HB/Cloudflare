@@ -1,0 +1,75 @@
+-----------------------------------------------------------------------------------
+
+CloudFlare YT:
+[Cloudflare Tutorial Overview]
+https://www.youtube.com/watch?v=acvI1YxHfFw 		-- CF Tutorial Overview , 20min
+[Introduction to Cloudflare Workers and Pages]
+https://www.youtube.com/watch?v=8W3X2hNULq0  		-- CF Workers and pages , 15min
+[Cloudflare Custom Domain on GitHub Pages]
+https://youtu.be/qOfG_Anaj2M?t=379			        -- CF custom Domain on GH Pages , 13min 
+
+GH:
+https://youtu.be/Jdc0i7RcBv8 					    -- Github Fundations , 10h
+https://youtu.be/Uszj_k0DGsg					    -- Git For Professionals , 40min 
+
+CloudFlare additional: 
+Cloudflare Domain Registration
+https://www.youtube.com/watch?v=WdTpWYTPcm8         -- CF buy domain , 5min
+[Cloudflare CAPTCHA/Turnstile]
+https://www.youtube.com/watch?v=8Rd5Y71Vf0Q 		-- CF Captcha , 5min
+Cloudflare PageRules
+https://www.youtube.com/watch?v=NcZYnZHl4w8         -- CF URL Forwarding, PageRules , 9min
+[Cloudflare Static Pages & GitHub]
+https://www.youtube.com/watch?v=MTc2CTYoszY&t=492s 	-- CF Static Pages & GH , 9min
+Cloudflare Pages
+https://youtu.be/k7fUkTQvCzk                        -- CF Pages, 10min 
+Cloudflare tunnel for Hosting
+https://youtu.be/eojWaJQvqiw 					    -- CF tunnel for Hosting , 21min
+Redirect Rules
+https://www.youtube.com/watch?v=XcR6JuVXoOw         -- CF Redirect Rules , 5min
+WAF:
+https://www.youtube.com/watch?v=Ayp52JxY2Lo         -- CF WAF Rules  , 5min
+
+Cloudflare YT Tutorials: 48 minutes
+GitHub Tutorials: 640 minutes (10 hours 40 minutes)
+Cloudflare Additional Tutorials: 69 minutes ​
+
+Docs:
+https://developers.cloudflare.com/learning-paths/get-started/concepts/how-cloudflare-works/ -- How CloudFlare Works 
+https://developers.cloudflare.com/learning-paths/get-started-free/			    -- freePlan CF
+https://www.reddit.com/r/CloudFlare/                                            -- CF Reddit forum
+https://www.freecodecamp.org/news/github-foundations-certified-exam-prep-guide/ -- GH Foundations cert
+https://www.dbooks.org/git-notes-for-professionals-1483/
+https://developers.cloudflare.com/1.1.1.1/setup/windows/
+https://developers.cloudflare.com/pages/get-started/direct-upload/
+
+-----------------------------------------------------------------------------------
+
+
+Site To Learn Cloudflare
+Tech:
+CloudFlare, Hosting & DNS, Github, Git, WordPress
+Topics/Tags:
+What You Will learn from this Video Tutorials?
+
+Core Features CF Free:
+Fast, easy-to-use DNS
+Unmetered DDoS Protection
+Global CDN
+Universal SSL Certificate
+Free Managed Ruleset
+Simple bot mitigation
+65 Cloudflare Rules
+5 WAF Rules
+
+
+### **Cloudflare Tutorials**
+Description: A comprehensive overview of Cloudflare services, including security, CDN, and optimization features.
+Description: Learn how to use Cloudflare Workers and Pages to deploy serverless functions and host websites.
+Description: Guide to setting up a custom domain with Cloudflare on GitHub Pages for enhanced performance and security.
+Description: Tutorial on Cloudflare Turnstile and CAPTCHA features to protect websites from bots.
+Description: Setting up and hosting static pages using Cloudflare and GitHub Pages for free web hosting.
+
+### **GitHub and Git Tutorials**
+Description: Introduction to GitHub and Git, covering essential concepts and version control basics.
+Description: Advanced Git tutorial for professional developers, including branching strategies, merging, and workflows.

@@ -1,0 +1,62 @@
+/* General card appearance */
+.card {
+    background-color: #1a1a1a;
+    color: #f59e42;
+    border: 1px solid #444444;
+    margin-bottom: 20px; /* Adjust for better spacing */
+}
+
+.card img {
+    border-bottom: 1px solid #444444;
+    max-height: 180px;
+    object-fit: cover; /* Maintain aspect ratio of images */
+}
+
+/* Card title styling */
+.card-title {
+    color: #ffffff;
+    font-size: 1.2rem; /* Slightly reduce title font size */
+}
+
+/* Responsive card body text */
+.card-body p {
+    color: #e5e5e5;
+    font-size: 0.9rem;
+}
+
+/* Video length styling */
+.video-length {
+    font-size: 0.8rem;
+    color: #ffcc80;
+}
+
+/* Hover effects for card */
+.card:hover {
+    /* background-color: #292929;  */
+    background-color: #e5e5e5; /* Darker background on hover */
+    transform: scale(1.05); /* Slight zoom effect */
+    transition: transform 0.3s ease;
+}
+
+/* Responsive behavior for cards */
+@media (max-width: 768px) {
+    .card img {
+        max-height: 150px;
+    }
+    .card-title {
+        font-size: 1rem;
+    }
+    .card-body p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Add space between video groups */
+.video-group {
+    margin-bottom: 40px;
+}
+
+/* Card container responsive behavior */
+.row {
+    justify-content: center;
+}

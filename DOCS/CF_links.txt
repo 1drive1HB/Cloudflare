@@ -1,0 +1,69 @@
+Site To Learn Cloudflare
+Tech:
+CloudFlare, Hosting & DNS, Github, Git, WordPress
+
+Topics/Tags:
+What You Will learn from this Video Tutorials?
+
+category of tools: 
+
+
+Sources:
+CloudFlare:
+YT:
+https://www.youtube.com/watch?v=acvI1YxHfFw 		-- CF Tutorial Overview , 20min
+https://www.youtube.com/watch?v=8W3X2hNULq0  		-- CF Workers and pages , 15min
+https://youtu.be/qOfG_Anaj2M?t=379			        -- CF custom Domain on GH Pages , 13min 
+https://www.youtube.com/watch?v=8Rd5Y71Vf0Q 		-- CF Captcha , 5min
+https://www.youtube.com/watch?v=MTc2CTYoszY&t=492s 	-- CF static pages & GH , 9min
+
+GH:
+https://youtu.be/Jdc0i7RcBv8 					    -- Github Fundations , 10h
+https://youtu.be/Uszj_k0DGsg					    -- Git For Professionals , 40min 
+
+Additional CF:
+https://www.youtube.com/watch?v=NcZYnZHl4w8         -- CF URL Forwarding, PageRules , 9min
+https://youtu.be/eojWaJQvqiw 					    -- CF tunnel for Hosting , 21min
+https://www.youtube.com/watch?v=WdTpWYTPcm8         -- buy domain , 5min
+
+Docs:
+https://developers.cloudflare.com/learning-paths/get-started/concepts/how-cloudflare-works/ -- How CloudFlare Works 
+https://developers.cloudflare.com/learning-paths/get-started-free/			    -- freePlan CF
+https://www.reddit.com/r/CloudFlare/                                            -- CF Reddit forum
+https://www.freecodecamp.org/news/github-foundations-certified-exam-prep-guide/ -- GH Foundations cert
+https://www.dbooks.org/git-notes-for-professionals-1483/                        -- Git Book 
+
+Other CF:
+https://youtu.be/FmYvrxYvBP0 					-- CF with auto terraform and GH
+https://www.cloudways.com/blog/wordpress-github/ 		-- WP + GH 
+https://youtu.be/UT3No6nswz8					-- WorPress 30min tut
+https://www.reddit.com/r/CloudFlare/comments/17g55i4/can_you_give_me_your_sincere_opinion_on_cloudflare/ 
+
+
+
+
+
+
+https://speed.cloudflare.com/
+https://www.virustotal.com/gui/home/upload
+https://app.diagrams.net/
+https://github.com/fmhy/FMHYEdit
+| [zemail.me/mailbox](https://zemail.me/mailbox) | Temporary email service for disposable email addresses. |
+| [mail.tm/en](https://mail.tm/en/) | Provides temporary email addresses for quick use. |
+| [tempmail.email](https://tempmail.email/) | Service offering temporary email addresses to avoid spam. |
+| [bestrandoms.com/random-address-in-pt?quantity=1](https://www.bestrandoms.com/random-address-in-pt?quantity=1) | Generates random addresses, useful for testing. |
+| [smspool.net/free-sms-verification](https://www.smspool.net/free-sms-verification) | Free SMS verification service for temporary phone numbers. |
+| [dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up) | Cloudflare's sign-up page for web performance and security services. |
+| [mega.nz/login](https://mega.nz/login) | Login page for MEGA, offering 20GB of free cloud storage. |
+| [github.com](https://github.com/) | Platform for hosting and testing code repositories. |
+
+
+
+Tools:
+https://app.diagrams.net/
+https://url2colors.vercel.app/get-started
+https://imagecolorpicker.io/color-palette-contrast-checker/
+
+Colors picker website:
+https://url2colors.vercel.app/get-started
+https://developers.cloudflare.com/learning-paths/get-started/concepts/how-cloudflare-works/  -- for colors

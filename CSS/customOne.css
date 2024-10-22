@@ -1,0 +1,39 @@
+/* General Page Settings */
+body {
+    background-color: #121212; /* Dark background */
+    /* color: #e5e5e5;  */
+    color: #292929;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #e5e5e5; /* White headings */
+    margin-bottom: 10px;
+}
+
+/* Links */
+a {
+    color: #f59e42; /* Orange/yellow links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffcc80; /* Slightly lighter on hover */
+    text-decoration: underline;
+}
+
+/* Section Headers */
+section {
+    margin: 20px 0;
+}
+
+section h2 {
+    border-bottom: 2px solid #f59e42; /* Orange border for headers */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,33 @@
+
+### **Course Tools**
+- **[dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up)**: Cloudflare security and web performance signup.
+- **[github.com](https://github.com/)**: Code hosting and version control.
+- **[github.com](https://github.com/)**: Code hosting and version control.
+
+### **Online Tools**
+- **[zemail.me/mailbox](https://zemail.me/mailbox)**: Disposable email service.
+- **[mail.tm/en](https://mail.tm/en/)**: Temporary email provider.
+- **[tempmail.email](https://tempmail.email/)**: Temporary email for spam protection.
+- **[bestrandoms.com](https://www.bestrandoms.com/random-address-in-pt?quantity=1)**: Random address generator.
+- **[smspool.net/free-sms-verification](https://www.smspool.net/free-sms-verification)**: Temporary phone numbers for SMS verification.
+- **[mega.nz/login](https://mega.nz/login)**: Cloud storage with 20GB free.
+- **[FMHYEdit](https://github.com/fmhy/FMHYEdit)**: GitHub repository for editing FMHY content.
+
+### **Dev Tools**
+- **[app.diagrams.net](https://app.diagrams.net/)**: Create diagrams and flowcharts.
+- **[imagecolorpicker.io](https://imagecolorpicker.io/color-palette-contrast-checker/)**: Color contrast checker.
+- **[git-scm.com](https://git-scm.com/)**: Git version control system.
+- **[wordpress.com](https://wordpress.com/)**: Website and blog creation platform.
+- **[github.com](https://github.com/)**: Code hosting and version control.
+- **[dash.cloudflare.com/sign-up](https://dash.cloudflare.com/sign-up)**: Cloudflare security and web performance signup.
+
+### **Security Tools**
+- **[virustotal.com](https://www.virustotal.com/gui/home/upload)**: File and URL virus scanning.
+- **[speed.cloudflare.com](https://speed.cloudflare.com/)**: Test site speed and performance.
+- **[radar.cloudflare.com/scan](https://radar.cloudflare.com/scan)**: Scan for potential network threats.
+- **[dnschecker.org](https://dnschecker.org/)**: Check DNS propagation globally.
+- **[sslshopper.com](https://www.sslshopper.com/)**: SSL certificate validation and troubleshooting.
+
+### **Additional Info for Downloading**
+- **[torrenttribe.com/aboutme#stepsMust](https://torrenttribe.com/aboutme#stepsMust)**: Steps for downloading torrents securely.
+- **[Digital Freedom](https://1drive1hb.github.io/DigitalFreedom/)**: Resources for privacy and digital freedom.
