@@ -1,0 +1,60 @@
+/* Body Styling */
+body {
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  
+  /* Left-Side Navbar */
+  .left-menu {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 250px !important; 
+    /* Fixed width for sidebar */
+    background-color: #131313 !important; /* Dark navbar background */
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    height: 100vh !important; /* Full height for sidebar */
+    overflow-y: auto !important; /* Scroll if content exceeds height */
+    z-index: 999 !important; /* Ensure it's on top of main content */
+    padding-top: 100px !important; /* Space for logo and links */
+  }
+  
+  /* Navbar Logo */
+  .left-menu .logo {
+    display: block;
+    margin: 0 auto !important; /* Center logo */
+    width: 80px !important; /* Logo size */
+  }
+  
+  /* Navbar Links */
+  .left-menu a {
+    display: block !important;
+    color: #f59e42 !important; /* Text color */
+    padding: 15px 20px !important; /* Padding for links */
+    text-decoration: none !important;
+    font-size: 18px !important;
+    margin-bottom: 15px !important; /* Spacing between links */
+    transition: background-color 0.3s ease !important;
+  }
+  
+  .left-menu a.active {
+    background-color: #04AA6D !important; /* Active link background */
+    color: white !important;
+  }
+  
+  .left-menu a:hover:not(.active) {
+    background-color: #ffcc8071 !important; /* Hover effect */
+    color: white !important;
+  }
+  
+  /* Main Content Area */
+  main {
+    /* margin-left: 250px !important;  */
+    /* Space for the sidebar */
+    padding: 20px !important;
+    transition: margin-left 0.3s ease !important;
+  }
+
+  
+  

@@ -67,3 +67,8 @@ https://imagecolorpicker.io/color-palette-contrast-checker/
 Colors picker website:
 https://url2colors.vercel.app/get-started
 https://developers.cloudflare.com/learning-paths/get-started/concepts/how-cloudflare-works/  -- for colors
+
+
+https://www.imagetotext.cc/#:~:text=Our%20online%20image%20to%20text%20converter%20is%20a%20free%20trained
+
+

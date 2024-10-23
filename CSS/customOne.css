@@ -1,18 +1,23 @@
 /* General Page Settings */
 body {
-    background-color: #121212; /* Dark background */
-    /* color: #e5e5e5;  */
-    color: #292929;
+    background-color: #1a1919; 
+    color: #1a1919;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
+    /* deaktivate for auto */
+    margin-left: 250px !important;
 }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    color: #e5e5e5; /* White headings */
+    color: #ec8314;
     margin-bottom: 10px;
+}
+
+p {
+    color: #e5e5e5;
 }
 
 /* Links */
@@ -37,3 +42,64 @@ section h2 {
     margin-bottom: 10px;
 }
 
+/* Header Styling */
+header {
+    background-color: #131313; /* Darker background for header */
+    color: #e5e5e5;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
+     /* Align with the left-menu */
+    /* Adjust the width to exclude sidebar */
+    
+}
+
+header h1 {
+    font-size: 48px;
+    margin: 0;
+    /* color: #f59e42; */
+    color: #ec8314;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #131313; /* Darker background for footer */
+    color: #e5e5e5;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
+    
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+}
+
+/* Centered Search Bar */
+.search-bar-container {
+    text-align: center;
+    margin-bottom: -10px; /* Adjust to sit above header */
+    margin-top: -20px;
+    z-index: 1;
+    position: relative;
+}
+
+.search-bar-container input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    border: 2px solid #f59e42;
+    border-radius: 5px;
+    background-color: #333333;
+    color: #f59e42;
+    font-size: 16px;
+}
