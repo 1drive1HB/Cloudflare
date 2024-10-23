@@ -1,13 +1,21 @@
-/* General Page Settings */
+/* General Page Settings
+#1a1919; bc
+#131313; nav
+#333333
+
+
+*/
 body {
-    background-color: #1a1919; 
+    /* background-color: #1a1919;  */
+    background-color: #181818;
     color: #1a1919;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     /* deaktivate for auto */
-    margin-left: 250px !important;
+    /* margin-left: 250px !important; */
+    margin-left: 15% !important;
 }
 
 /* Headings */
@@ -44,7 +52,8 @@ section h2 {
 
 /* Header Styling */
 header {
-    background-color: #131313; /* Darker background for header */
+    background-color: #272727 !important;
+    /* background-color: #131313 !important;  */
     color: #e5e5e5;
     text-align: center;
     padding: 40px 20px;
@@ -52,6 +61,8 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
      /* Align with the left-menu */
     /* Adjust the width to exclude sidebar */
+    border-left: 2px solid #181818;
+
     
 }
 
@@ -69,7 +80,8 @@ header p {
 
 /* Footer Styling */
 footer {
-    background-color: #131313; /* Darker background for footer */
+    background-color: #272727 !important;
+    /* background-color: #131313 !important;  */
     color: #e5e5e5;
     text-align: center;
     padding: 20px 0;
@@ -77,12 +89,37 @@ footer {
     width: 100%;
     bottom: 0;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Adds a subtle shadow */
-    
+    border-top: 1px solid #181818; /* Adds a small border at the top */
+    margin-right: 15% !important;
+
 }
+
 
 footer p {
     margin: 0;
     font-size: 16px;
+}
+
+/* Responsive Adjustments for Tablets (max-width: 768px) */
+@media (max-width: 768px) {
+    header, footer {
+        margin-left: 10% !important; /* Reduce left margin for smaller screens */
+    }
+
+    header h1, footer p {
+        font-size: 20px; /* Adjust font size */
+    }
+}
+
+/* Responsive Adjustments for Mobile (max-width: 576px) */
+@media (max-width: 576px) {
+    header, footer {
+        margin-left: 5% !important; /* Further reduce margin for mobile */
+    }
+
+    header h1, footer p {
+        font-size: 14px; /* Adjust font size for mobile */
+    }
 }
 
 /* Centered Search Bar */
@@ -103,3 +140,5 @@ footer p {
     color: #f59e42;
     font-size: 16px;
 }
+
+
