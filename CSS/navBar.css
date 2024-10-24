@@ -1,9 +1,4 @@
-/* Body Styling */
-body {
-    margin: 0;
-    font-family: "Lato", sans-serif;
-  }
-  
+
   /* Left-Side Navbar */
   .left-menu {
     margin: 0 !important;
@@ -19,15 +14,16 @@ body {
     height: 100vh !important; /* Full height for sidebar */
     overflow-y: auto !important; /* Scroll if content exceeds height */
     z-index: 999 !important; /* Ensure it's on top of main content */
-    padding-top: 100px !important; /* Space for logo and links */
+    /* padding-top: 100px !important;  */
   }
   
   /* Navbar Logo */
   .left-menu .logo {
     display: block;
     margin: 0 auto !important; /* Center logo */
-    width: 80px !important; /* Logo size */
-    
+    width: 109px !important; 
+    /* Logo size */
+    /* change bc of small */
   }
   
   /* Navbar Links */
@@ -51,15 +47,5 @@ body {
     background-color: #ffcc8071 !important; /* Hover effect */
     color: white !important;
   }
-  
-  /* Main Content Area */
-  main {
-    /* margin-left: 250px !important;  */
-    /* Space for the sidebar */
-    padding: 20px !important;
-    transition: margin-left 0.3s ease !important;
-  }
-
-  /* Responsive Design */
   
   
