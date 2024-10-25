@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://use.typekit.net/awanzaman.css'); /* Replace with the correct link from Adobe Fonts */
+
 /* General Page Settings */
 body {
     background-color: #181818;
     color: #1a1919;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif; /* Fallback fonts included */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -11,15 +14,25 @@ body {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-    /* color: #ec8314; */
     color: #f38221;
-
+    font-family: 'AwanZamanRegular', 'Roboto', sans-serif; /* Use AwanZaman with fallback */
     margin-bottom: 10px;
 }
 
 p {
     color: #e5e5e5;
+    background-color: #272727;
+    text-align: left;
+    padding: 15px;                 /* Add padding for breathing space */
+    border: 1px solid #444;        /* Subtle border for a boxed effect */
+    border-radius: 8px;            /* Rounded corners for a softer look */
+    max-width: 750px;              /* Limits paragraph width for readability */
+    margin: 20px auto;             /* Centered within the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+    font-size: 16px;               /* Adjusts font size for readability */
+    line-height: 1.6;              /* Improves text spacing */
 }
+
 
 /* Links */
 a {
@@ -48,7 +61,7 @@ header {
     background-color: #272727;
     color: #e5e5e5;
     text-align: center;
-    padding: 8px 5px;
+    padding: 15px 15px;
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     border-left: 2px solid #181818;
@@ -70,7 +83,7 @@ footer {
     background-color: #272727;
     color: #e5e5e5;
     text-align: center;
-    padding: 40px 20px;
+    padding: 15px 15px;
     position: relative;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     border-left: 2px solid #181818;
@@ -119,4 +132,18 @@ footer p {
     background-color: #333333;
     color: #f59e42;
     font-size: 16px;
+}
+
+#center {
+    color: #e5e5e5;
+    background-color: #272727;
+    text-align: center;
+    padding: 15px;                 /* Add padding for breathing space */
+    border: 1px solid #444;        /* Subtle border for a boxed effect */
+    border-radius: 8px;            /* Rounded corners for a softer look */
+    max-width: 600px;              /* Limits paragraph width for readability */
+    margin: 20px auto;             /* Centered within the container */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds subtle shadow for depth */
+    font-size: 16px;               /* Adjusts font size for readability */
+    line-height: 1.6;              /* Improves text spacing */
 }

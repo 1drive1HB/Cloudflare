@@ -44,7 +44,10 @@ https://developers.cloudflare.com/1.1.1.1/setup/windows/
 https://developers.cloudflare.com/pages/get-started/direct-upload/
 
 -----------------------------------------------------------------------------------
-
+https://developers.cloudflare.com/learning-paths/get-started/concepts/how-cloudflare-works/
+https://speed.cloudflare.com
+https://dash.cloudflare.com/sign-up
+https://radar.cloudflare.com
 
 Site To Learn Cloudflare
 Tech:
