@@ -1,76 +1,122 @@
-/* Body Styling */
+/* General Page Settings */
 body {
-    margin: 0;
-    font-family: "Lato", sans-serif;
+  background-color: #181818;
+  color: #1a1919;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  margin-left: 15%;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  /* color: #ec8314; */
+  color: #f38221;
+
+  margin-bottom: 10px;
+}
+
+p {
+  color: #e5e5e5;
+}
+
+/* Links */
+a {
+  color: #f59e42;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffcc80;
+  text-decoration: underline;
+}
+
+/* Section Headers */
+section {
+  margin: 20px 0;
+}
+
+section h2 {
+  border-bottom: 2px solid #f59e42;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+/* Header Styling */
+header {
+  background-color: #272727;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-left: 2px solid #181818;
+}
+
+header h1 {
+  font-size: 48px;
+  margin: 0;
+  color: #f38221;
+}
+
+header p {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Footer Styling */
+footer {
+  background-color: #272727;
+  color: #e5e5e5;
+  text-align: center;
+  padding: 40px 20px;
+  position: relative;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  border-left: 2px solid #181818;
+}
+
+footer p {
+  margin: 0;
+  font-size: 16px;
+}
+
+/* Responsive Adjustments for Tablets */
+@media (max-width: 768px) {
+  header, footer {
+      margin-left: 10%;
   }
-  
-  /* Left-Side Navbar */
-  .left-menu {
-    margin: 0;
-    padding: 0;
-    width: 250px; /* Adjust width */
-    background-color: #131313; /* Dark navbar background */
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh; /* Full height */
-    overflow-y: auto; /* Scroll if content exceeds height */
-    z-index: 999; /* Ensure it's on top of main content */
-    padding-top: 100px; /* Padding for logo and spacing */
+
+  header h1, footer p {
+      font-size: 20px;
   }
-  
-  .left-menu .logo {
-    display: block;
-    margin: 0 auto;
-    width: 80px; /* Adjust logo size */
+}
+
+/* Responsive Adjustments for Mobile */
+@media (max-width: 576px) {
+  header, footer {
+      margin-left: 5%;
   }
-  
-  /* Navbar Links */
-  .left-menu a {
-    display: block;
-    color: #f59e42; /* Text color */
-    padding: 15px 20px; /* Padding */
-    text-decoration: none;
-    font-size: 18px; /* Font size */
-    margin-bottom: 15px; /* Spacing */
-    transition: background-color 0.3s ease; /* Smooth transition */
+
+  header h1, footer p {
+      font-size: 14px;
   }
-  
-  .left-menu a.active {
-    background-color: #04AA6D; /* Active background color */
-    color: white;
-  }
-  
-  .left-menu a:hover:not(.active) {
-    background-color: #ffcc8071; /* Hover color */
-    color: white;
-  }
-  
-  /* Main Content Area */
-  div.content {
-    margin-left: 250px; /* Space for the fixed navbar */
-    padding: 20px;
-    height: 1000px;
-    transition: margin-left 0.3s ease;
-  }
-  
-  /* Responsive Design */
-  @media screen and (max-width: 768px) {
-    div.content {
-      margin-left: 0; /* Remove left margin when navbar collapses */
-    }
-  
-    .left-menu {
-      position: relative;
-      width: 100%; /* Full width on smaller screens */
-      height: auto;
-    }
-  }
-  
-  @media screen and (max-width: 400px) {
-    .left-menu a {
-      text-align: center;
-      float: none;
-    }
-  }
-  
+}
+
+/* Centered Search Bar */
+.search-bar-container {
+  text-align: center;
+  margin: -20px 0 -10px;
+  z-index: 1;
+  position: relative;
+}
+
+.search-bar-container input[type="text"] {
+  width: 25%;
+  padding: 10px;
+  border: 2px solid #f59e42;
+  border-radius: 5px;
+  background-color: #333333;
+  color: #f59e42;
+  font-size: 16px;
+}

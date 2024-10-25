@@ -1,51 +1,76 @@
+/* Left-Side Navbar */
+.left-menu {
+  margin: 0;
+  padding: 0;
+  width: 15%; /* Set width to 15% for larger screens */
+  background-color: #272727;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 999;
+  transition: width 0.3s ease; /* Animation for smooth resizing */
+}
 
-  /* Left-Side Navbar */
+/* Navbar Logo */
+.left-menu .logo {
+  display: block;
+  margin: 20px auto;
+  width: 109px;
+}
+
+/* Navbar Links */
+.left-menu a {
+  display: block;
+  color: #f59e42;
+  padding: 15px 20px;
+  text-decoration: none;
+  font-size: 15px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease, font-size 0.3s ease;
+  border-top: 2px solid #181818;
+}
+
+.left-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.left-menu a:hover:not(.active) {
+  background-color: #ffcc8071;
+  color: white;
+}
+
+/* Responsive width for screens smaller than 992px */
+@media (max-width: 992px) {
   .left-menu {
-    margin: 0 !important;
-    padding: 0 !important;
-    /* width: 250px !important;  */
-    width: 15%;
-    /* Fixed width for sidebar */
-    background-color: #272727 !important;
-    /* background-color: #131313 !important;  */
-    position: fixed !important;
-    top: 0 !important;
-    left: 0 !important;
-    height: 100vh !important; /* Full height for sidebar */
-    overflow-y: auto !important; /* Scroll if content exceeds height */
-    z-index: 999 !important; /* Ensure it's on top of main content */
-    /* padding-top: 100px !important;  */
+      width: 200px; /* Set a fixed width for medium screens */
   }
-  
-  /* Navbar Logo */
-  .left-menu .logo {
-    display: block;
-    margin: 0 auto !important; /* Center logo */
-    width: 109px !important; 
-    /* Logo size */
-    /* change bc of small */
+  body {
+      margin-left: 200px; /* Adjust content margin accordingly */
   }
-  
-  /* Navbar Links */
+}
+
+/* Responsive width for screens smaller than 768px */
+@media (max-width: 768px) {
+  .left-menu {
+      width: 60px; /* Shrinks to 60px for mobile */
+  }
+  body {
+      margin-left: 60px; /* Adjust content margin for mobile */
+  }
+
   .left-menu a {
-    display: block !important;
-    color: #f59e42 !important; /* Text color */
-    padding: 15px 20px !important; /* Padding for links */
-    text-decoration: none !important;
-    font-size: 18px !important;
-    margin-bottom: 15px !important; /* Spacing between links */
-    transition: background-color 0.3s ease !important;
-    border-top: 2px solid #181818;
+      font-size: 0; /* Hide text on mobile to save space */
+      padding: 10px; /* Reduce padding */
   }
-  
-  .left-menu a.active {
-    background-color: #04AA6D !important; /* Active link background */
-    color: white !important;
+
+  .left-menu a:hover {
+      font-size: 16px; /* Show text on hover */
   }
-  
-  .left-menu a:hover:not(.active) {
-    background-color: #ffcc8071 !important; /* Hover effect */
-    color: white !important;
+
+  .left-menu .logo {
+      width: 50px; /* Shrink logo on mobile */
   }
-  
-  
+}
