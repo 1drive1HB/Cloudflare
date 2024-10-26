@@ -15,10 +15,14 @@
 
 /* Navbar Logo */
 .left-menu .logo {
-  display: block;
-  margin: 20px auto;
-  width: 109px;
+  display: block !important;
+  margin: auto auto !important;
+  width: 135px !important;
+  padding: 0 !important;        /* Ensures no extra padding is applied */
+  border: none !important;      /* Removes any border if inherited */
+  box-shadow: none !important;  /* Avoids shadow effects from other styles */
 }
+
 
 /* Navbar Links */
 .left-menu a {

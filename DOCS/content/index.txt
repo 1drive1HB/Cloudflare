@@ -49,6 +49,17 @@ https://speed.cloudflare.com
 https://dash.cloudflare.com/sign-up
 https://radar.cloudflare.com
 
+
+
+https://www.youtube.com/watch?v=9vaiZQtL9lQ
+
+https://www.youtube.com/watch?v=yMmxw-DZ5Ec Cloudflare Tunnel and docker 
+https://www.youtube.com/watch?v=ZvIdFs3M5ic Cloudflare Tunnel Easy
+https://www.youtube.com/watch?v=Nf7m3h11y-s CloudFlare DDNS - Update CloudFlare with Your Dynamic IP Address
+https://www.youtube.com/watch?v=CS72kN2c6hU Dynamic ISP IP Address for use
+https://youtu.be/y8s_Q_0s9TU Tunnels for Secure Remote Access
+https://www.youtube.com/watch?v=HnUDtycXSNE dns records explained 
+
 Site To Learn Cloudflare
 Tech:
 CloudFlare, Hosting & DNS, Github, Git, WordPress
